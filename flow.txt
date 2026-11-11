@@ -1,0 +1,47 @@
+                    User
+
+                      │
+
+                 POST /agent
+
+                      │
+
+                   FastAPI
+
+                      │
+
+                   Planner
+
+                      │
+
+               Execution Plan
+
+                      │
+
+                   Executor
+
+      ┌──────────┼────────────┐
+
+      │          │            │
+
+      ▼          ▼            ▼
+
+ Search Tool  Draft Tool  Reflection
+
+                      │
+
+                      ▼
+
+            Document Generator
+
+                      │
+
+                      ▼
+
+             Word Document
+
+                      │
+
+                      ▼
+
+               JSON Response
